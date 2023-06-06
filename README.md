@@ -87,8 +87,10 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
   git clone https://github.com/Hassaanjbaig-code/Backend-of-HelloWorld.git
+  git clone https://github.com/Hassaanjbaig-code/hello-react-front-end.git
+  cd Backend-of-HelloWorld
+  cd hello-react-front-end
 ```
 
 
@@ -99,6 +101,8 @@ Install this project with:
 ```sh
   cd Backend-of-HelloWorld
   bundle install
+  cd hello-react-front-end
+  npm install
 ```
 
 ### Usage
@@ -107,8 +111,10 @@ To run the project, execute the following command:
 User have to run this commands in git terminal
 
 ```sh
-  rails s
+  rails s 
+  npm start 
 ```
+
 
 ### Deployment
 
